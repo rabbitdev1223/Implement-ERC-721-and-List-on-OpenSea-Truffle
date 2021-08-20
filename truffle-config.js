@@ -25,7 +25,7 @@ const web3 = require("web3");
 const mnemonic = process.env["ROPSTEN_PRIVATE_KEY"];
 const ETH_ROPSTEN_ALCHEMY_API_KEY = process.env["ETH_ROPSTEN_ALCHEMY_API_KEY"]
 const ETH_RINKEBY_ALCHEMY_API_KEY = process.env["ETH_RINKEBY_ALCHEMY_API_KEY"]
-const ETH_ROPSTEN_ALCHEMY_API_KEY = process.env["ETH_ROPSTEN_ALCHEMY_API_KEY"]
+const ETH_MAINNET_ALCHEMY_API_KEY = process.env["ETH_MAINNET_ALCHEMY_API_KEY"]
 
 module.exports = {
   /**
